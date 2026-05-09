@@ -16,18 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.vivaan.BucketloadOfWeapons"
+			"dev.vivaan.bucketloadofweapons.BucketloadOfWeapons"
 		],
-		"client": [
-			"dev.vivaan.client.BucketloadOfWeaponsClient"
+		"fabric-datagen": [
+			"dev.vivaan.bucketloadofweapons.BucketloadOfWeaponsDataGenerator"
 		]
 	},
 	"mixins": [
-		"bucketload-of-weapons.mixins.json",
-		{
-			"config": "bucketload-of-weapons.client.mixins.json",
-			"environment": "client"
-		}
+		"bucketload-of-weapons.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",

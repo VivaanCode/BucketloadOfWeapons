@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "dev.vivaan.client.mixin",
+	"package": "dev.vivaan.bucketloadofweapons.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
 		"ExampleClientMixin"

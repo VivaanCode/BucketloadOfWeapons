@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "dev.vivaan.mixin",
+	"package": "dev.vivaan.bucketloadofweapons.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 		"ExampleMixin"
